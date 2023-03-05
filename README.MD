@@ -1,14 +1,14 @@
-#Formulário
+# Formulário
 
-##Sobre o Projeto:
+## Sobre o Projeto:
 
 Este é um projeto de formulário de um site de escritório de contabilidade, na qual permite os usuários cadastrar informações para alguns serviços que necessita ser repassado essas informações para o escritório, conforme mostra imagem abaixo, tendo campos como nome, email, telefone, e entre outros. Tendo ainda prévia referente sobre o serviço, quando se passa o cursor so mouse, detalhando pouco sobre esses serviços oferecido pelo escritório.
 
-<img src = https://github.com/ChaiCaroline/Formulario> 
+<img src = "https://github.com/ChaiCaroline/Formul-rio/blob/main/Imagens%20do%20Projeto/Imagem%20-%201.PNG" > 
 
-<img src = https://github.com/ChaiCaroline/Formulario>
+<img src = "https://github.com/ChaiCaroline/Formul-rio/blob/main/Imagens%20do%20Projeto/Imagem%20-%202.png">
 
-##Funcionalidades 
+## Funcionalidades 
 
 Página inicial do Formulários de Imposto de Renda, o usuário, pode inserir suas informações solicitadas em cada campo. Os campos onde se encontra com (*) eles são obrigatórios e possuem validações específicas para garantir que as informações inseridas estejam corretas. Sendo assim retornando com mensagem, caso o usuário não tenha preenchido ou preenchido incorretamente.
 
@@ -16,7 +16,7 @@ As validações dos campos obrigatórios, e uma forma que garante as informaçõ
 
 Sendo finalizado com botão de "Enviar", onde as informações preenchidas pelo usuário são enviados diretamente para escritório de contabilidade. Podendo assim o mesmo da continuidade no serviço solicitado pelo cliente (usuário).
 
-##Campos do Formulário
+## Campos do Formulário
 
 Nome: Campo de texto para inserir o nome completo do usuário. Pois como trata - se de campo obrigatório, é validado para garatir que nome inserido estejam correto, .
 
@@ -34,7 +34,7 @@ Possuir Dependentes: Se tratar de campo onde o usuário pode escolher entre "Sim
 
 Documentação: Usuário poderá enviar documentos solicitado pelo escritório.
 
-<img src = https://github.com/ChaiCaroline/Formulario>
+<img src = "https://github.com/ChaiCaroline/Formul-rio/blob/main/Imagens%20do%20Projeto/Imagem%20-%203.PNG">
 
 ## Validação dos Campos
 
@@ -46,4 +46,6 @@ Endereço: campo obrigatório, terá que ser preenchido com no mínino 14 caract
 
 Ano do ultimo Recibo: campo obrigatório, deve ser selecionado 1 ano das opções apresentada.
 
-<img src = https://github.com/ChaiCaroline/Formulario>
+<img src = "https://github.com/ChaiCaroline/Formul-rio/blob/main/Imagens%20do%20Projeto/Imagem%20-%204.PNG">
+
+<img src = "https://github.com/ChaiCaroline/Formul-rio/blob/main/Imagens%20do%20Projeto/Imagem%20-%205.PNG">
