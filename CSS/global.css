@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    padding: 0 10vw;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px 0 10px 0px;
+}
+
+.logo {
+    width: 200px;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    width: 100%;
+}
+
+header li {
+    display: flex;
+    padding: 0 10px 0 10px;
+
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header li :hover {
+    color: #1f3d44;
+}
+
+header a {
+    text-decoration: none;
+
+    color: #1b9cc7;
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/form.css">
+    <link rel="stylesheet" href="../CSS/global.css">
+    <title>Formulário</title>
+</head>
+
+
+<body>
+
+    <header>
+        <img src="../IMG/Logo-Convviccao.png" alt="Logo Convviccao" class="logo">
+        <ul>
+            <li><a href="#home">Home</a></li> <span>/ </span>
+            <li><a href="#about">Sobre Nós</a></li> <span>/ </span>
+            <li><a href="#servicos">Serviços</a></li> <span>/ </span>
+            <li><a href="#contato">Contato</a></li> <span>/ </span>
+            <li><a href="#">Formulário</a></li>
+        </ul>
+        <a target="_blank"
+            href="https://passport.nibo.com.br/account/login?email=&returnUrl=%2fauthorize%3fresponse_type%3dtoken%26client_id%3d103416FE-A280-466A-9D28-642ACEE21C3B%26lu%3d1%26redirect_uri%3dhttps%253a%252f%252fempresa.nibo.com.br%252fUser%252fLogonWithToken%253freturnUrl%253d%252fOrganization">
+            <button class="empresa">
+                Área Empresa</button></a>
+    </header>
+
+    <main>
+
+        <div id="menu-escolha">
+            <div id="fundo" class="imagem-esquerda">
+                <div class="informacao">
+                    <h2>Formulário de Imposto de Renda</h2>
+                    <span>Formulário para envio das informações, para a entrega do Imposto de Renda 2023</span>
+                    <button class="escolha-IR"> Imposto de Renda </button>
+                </div>
+            </div>
+
+            <div id="fundo" class="imagem-centro">
+                <div class="informacao">
+                    <h2>Formulário de Declaração MEI</h2>
+                    <span>Formulário para preenchimento, para a entrega da declaração anual do Micro Empreendedor
+                        Individual (MEI).</span>
+                    <button class="escolha-funcionario"> Declaração MEI </button>
+                </div>
+            </div>
+
+            <div id="fundo" class="imagem-direita">
+                <div class="informacao">
+                    <h2>Formulário de Pronampe</h2>
+                    <span>Formulário para envio das informações para a solicitação aos banco credenciados o programa
+                        PRONAMPE (Programa Nacional de Apoio às Microempresas e Empresas de Pequeno Porte)</span>
+                    <button class="escolha-empresa"> PRONAMPE </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="imposto">
+            <form id="IR">
+                <h2> Formulário para Imposto de Renda</h2>
+
+                <div class="name">
+                    <label for="input-name">Informe seu Nome Completo: *</label>
+                    <input type="text" placeholder=" Ex.:João da Silva" id="input-name" width="200" />
+                </div>
+                <span id="name-verificar"> </span>
+
+                <div class="phone">
+                    <label for="input-phone">Informe seu Telefone (DDD + Telefone): *</label>
+                    <input type="tel" placeholder=" Ex.:Insira o DDD + Telefone, sem traços e pontos" id="input-phone"
+                        pattern="[0-9]+$" />
+                </div>
+                <span id="tel-verificar"> </span>
+
+                <div class="email">
+                    <label for="input-email">Informe seu E-mail:</label>
+                    <input type="email" placeholder=" Ex.:convviccao@convviccaocontabil.com.br" id="input-email"
+                        minlength="10" />
+                </div>
+                <span id="email-verificar"> </span>
+
+                <div class="endereco">
+                    <label for="input-endereco">Informe seu Endereço:*</label>
+                    <input type="text" placeholder=" Endereço completo(Rua, Bairro, Cidade, Estado, CEP)"
+                        id="input-endereco" minlength="10" />
+                </div>
+                <span id="endereco-verificar"> </span>
+
+                <div class="titulo">
+                    <label for="input-titulo">Informe seu Título de Eleitor:</label>
+                    <input type="number" placeholder=" Ex.:XXXXXXXXXXXXX" id="input-titulo" minlength="10" />
+                </div>
+                <span id="titulo-verificar"> </span>
+
+                <div class="ir-ano">
+                    <label for="input-ir">Ano do ultimo Recibo do Imposto de
+                        Renda:*</label>
+                    <select name="select-ano-ir" id="select-ano-ir">
+                        <option value="Seleciona-opcao">Selecione um ano</option>
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                    </select>
+
+                </div>
+                <span id="ir-verificar"> </span>
+                <div class="numero-ir">
+                    <label for="input-ir">Número da última declaração entregue: </label>
+                    <input type="number" placeholder=" Ex.:XXXXXXXXXXXXX" id="input-ir" minlength="10" disabled />
+                </div>
+                <span id="ir-verificar-declaracao"> </span>
+
+
+                <div class="dependentes">
+                    <label for="input-ir">Possui dependentes ?* </label>
+
+                    <div>
+                        <input type="radio" name="drone" id="sim-dep" value="sim" />
+                        <label for="sim-dep">Sim</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="drone" id="nao-dep" value="nao" checked />
+                        <label for="nao-dep">Não</label>
+                    </div>
+
+
+                </div>
+                <span id="dependentes-verificar"> </span>
+
+
+                <div class="dependentes-tem">
+                    <label for="input-dependentes-cpf">CPF Dependente:</label>
+                    <input type="number" placeholder=" Ex.:XXXXXXXXXXXXX" id="input-dependentes-cpf" minlength="10"
+                        disabled />
+                </div>
+                <div class="dependentes-tem">
+                    <label for="input-dependentes-nome">Nome Dependente:</label>
+                    <input type="text" placeholder=" Ex.:Nome" id="input-dependentes-nome" minlength="10" disabled />
+                </div>
+                <span id="depedentes-verificar-informacoes"> </span>
+
+
+                <div class="upload">
+                    <label>Documentos: <input type="file" name="image[]" multiple="multiple"></label>
+                </div>
+
+                <input type="submit" value="Enviar" class="submit">
+
+            </form>
+
+        </div>
+
+
+
+    </main>
+
+
+</body>
+
+<script src="../JS/script.js"></script>
+
+</html>
